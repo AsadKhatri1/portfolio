@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad khatri - developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar">
+         
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html">My Intro</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="hamburger">
+            <img class="ham" src="ham.png" alt="" width="40px">
+            <!-- <img class="cross" src="cross.png" alt="" width="23px"> -->
+        </div>
+     <div class="blogContainer">
+         <h1>Blogs By Asad - The Developers</h1>
+         <div class="blogitem">
+             <h2>learn js in funky way!</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit a necessitatibus distinctio placeat impedit tempore obcaecati. Accusamus totam rerum officiis earum consequatur debitis provident eaque enim maiores fugit repudiandae iste dolores facilis aspernatur quas pariatur aliquam suscipit nesciunt, consectetur eius itaque ipsum ducimus maxime deserunt. Est quo mollitia necessitatibus porro odio laboriosam repellendus. Laborum eaque impedit labore quaerat molestias, voluptas similique, in id excepturi error, consequatur illum ullam quidem. Ab repudiandae eum ipsa nobis accusamus at </p>
+
+             <button class="btn2">Read More</button>
+         </div>
+         <div class="blogitem">
+             <h2>learn js in funky way!</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit a necessitatibus distinctio placeat impedit tempore obcaecati. Accusamus totam rerum officiis earum consequatur debitis provident eaque enim maiores fugit repudiandae iste dolores facilis aspernatur quas pariatur aliquam suscipit nesciunt, consectetur eius itaque ipsum ducimus maxime deserunt. Est quo mollitia necessitatibus porro odio laboriosam repellendus. Laborum eaque impedit labore quaerat molestias, voluptas similique, in id excepturi error, consequatur illum ullam quidem. Ab repudiandae eum ipsa nobis accusamus at soluta fugit voluptatem cumque maiores aut non odio suscipit alias nostrum, vel atque. Nam accusantium, dolor at nihil consequatur culpa voluptate iste </p>
+             <button class="btn2">Read More</button>
+         </div>
+         <div class="blogitem">
+             <h2>learn js in funky way!</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit a necessitatibus distinctio placeat impedit tempore obcaecati. Accusamus totam rerum officiis earum consequatur debitis provident eaque enim maiores fugit repudiandae iste dolores facilis aspernatur quas pariatur aliquam suscipit nesciunt, consectetur eius itaque ipsum ducimus maxime deserunt. Est quo mollitia necessitatibus porro odio laboriosam repellendus. Laborum eaque im</p>
+             <button class="btn2">Read More</button>
+         </div>
+    
+    </div>
+    </div>
+    <script>
+        console.log('hello')
+        document.querySelector('.hamburger').addEventListener('click' , ()=>{
+            document.querySelector('.sidebar').classList.toggle('sidebarGo');
+        })
+        // if( document.querySelector('.sidebar').classList.contains('sidebarGo')){
+        //     document.querySelector('.ham').style.display='inline'
+        //     document.querySelector('.cross').style.display='none'
+        // }
+        // else{
+        //     document.querySelector('.ham').style.display='none'
+        //     document.querySelector('.cross').style.display='inline'
+        // }
+    </script>
+</body>
+</html>

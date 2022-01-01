@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+}
+.sidebar{
+    background-color: rgb(218, 218, 218);
+    width: 12vw;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 33px 0px ;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    
+}
+.sidebar nav li a:hover{
+    color:rgb(68, 68, 85) ;
+    /* background-color: rgb(104, 101, 101); */
+    
+}
+.main{
+    /* background-color: yellow; */
+    width: 88vw;
+    height: 100vh;
+}
+
+.infoContainer{
+    /* background-color: rgb(187, 23, 50); */
+    width:80vw;
+    height: 58vh;
+    margin: 120px auto;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+.devInfo{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family:  'Source Code Pro', monospace;
+    margin: 10px;
+}
+.devimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:40%;
+    
+}
+.devimg img{
+    height: 280px;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 2000px;
+}
+.buttons{
+    display: flex;
+   
+    font-family: 'Roboto Slab', serif;
+}
+.btn{
+    width: 15vw;
+    height: 30px;
+    margin: 20px;
+    background-color: rgb(68, 68, 85);
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    border-style: none;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(104, 101, 101);
+    color:rgb(255, 253, 253);
+}
+
+.heading{
+     font-size: 25px;
+     margin: 5px;
+    
+}
+.dev-name{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 5px;
+}
+.head2{
+    font-size: 22px;
+}
+.head3{
+    font-size: 14px;
+}
+
+
+.contact-form{
+    font-family: 'Fira Sans', sans-serif;
+    
+    padding: 150px 50px;
+       
+}
+.contact-form h2{
+    font-family:  'Source Code Pro', monospace;
+   
+       
+}
+
+.contact-form div{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    color: grey;
+    font-size: 12px;
+    padding-top: 5px;
+}
+#clientemail{
+    width: 20vw;
+    border-radius: 8px;
+}
+#enquiry{
+    width: 20vw;
+    border-radius: 8px;
+}
+#clientphone{
+    width: 20vw;
+    border-radius: 8px;
+    
+}
+#name{
+    width: 20vw;
+    border-radius: 8px;
+    margin: 0 0 30px 0;
+}
+.phonecl{
+    margin-top: -20px;
+
+}
+.btn-sm{
+    width: 150px;
+    height: 30px;
+    
+    background-color: rgb(68, 68, 85);
+    color: white;
+    font-size: 14px;
+    border-radius: 15px;
+    border-style: none;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+.btn-sm:hover{
+    background-color: rgb(104, 101, 101);
+    color:rgb(255, 253, 253);
+}
+.btn2{
+    width: 80px;
+    height: 30px;
+    margin: 10px 0;
+    background-color: rgb(68, 68, 85);
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    border-style: none;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgb(104, 101, 101);
+    color:rgb(255, 253, 253);
+}
+.blogitem{
+    margin: 20px;
+}
+.blogitem h2{
+    font-family: 'Fira Sans', sans-serif;
+   
+}
+.blogitem p{
+    font-family:  'Source Code Pro', monospace;
+   
+    opacity: 0.6;
+    
+}
+.blogContainer h1{
+    margin: 30px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid rgb(204, 202, 202); */
+    margin:20px 4%;
+    padding: 4%;
+    /* background-color: rgb(243, 243, 243); */
+    border-radius: 72px;
+}
+.about h1{
+    margin:0 0 30px 0;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.about p{
+    font-size: 16px;
+    font-family:  'Source Code Pro', monospace;
+    opacity: 0.8;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(204, 202, 202);
+    margin:10px 4%;
+    padding: 4%;
+    /* background-color: rgb(236, 253, 253); */
+    border-radius: 72px;
+    width: 30%;
+    height: 200px;
+}
+.skills h1{
+    margin:0 0 30px 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.skill-list{
+    padding: 20px;
+    font-size: 20px;
+    font-family:  'Source Code Pro', monospace;
+}
+.skill-list li{
+    list-style: none;
+    color: rgb(65, 62, 62);
+}
+.intro{
+    display: flex;
+    position: relative;
+    left: 40px;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(204, 202, 202);
+    margin: 10px 4%;
+    padding: 4%;
+    /* background-color: rgb(236, 253, 253); */
+    border-radius: 72px;
+    width: 30%;
+    height: 200px;
+}
+.projects h1{
+    margin:0 0 30px 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+.project-list{
+    margin:0 0 30px 0;
+    font-family:  'Source Code Pro', monospace;
+    
+}
+
+.project-list li{
+    list-style: none;
+    opacity: 0.8;
+}
+.links{
+    text-decoration: none;
+}
+.hamburger{
+    display: none;
+    position: absolute;
+    left: 8px;
+   top: 10px;
+   cursor: pointer;
+  
+}
+.cross{
+    margin-left: 110px;
+    width: 25px;
+    height: 25px;
+   
+}
+.ham{
+    height: 30px;
+}
+
+
+@media (max-width:1370px){
+ 
+    .sidebar{
+        width:25vw;
+    }
+    .navbar li{
+        position: relative;
+        right: 25px;
+    }
+    .devimg img{
+       display: none;
+    }
+    .devInfo{
+        width: 90%;
+        position: relative;
+        top: -80px;
+    }
+    .btn{
+        width: 30vw;
+    }
+    .dev-name{
+        font-size: 22px;
+    }
+ 
+   .hamburger{
+       display: inline;
+   }
+   .sidebarGo{
+    transform: translate(-210px,0px);
+    position: absolute;
+
+}
+
+.about p{
+    font-size: 12px;
+    font-family:  'Source Code Pro', monospace;
+    opacity: 0.9;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.skills{
+height:auto;
+border-radius: 2px;
+width: 180px;
+position: relative;
+right: 45px;
+margin:3px 10px;
+padding: 4%;
+
+}
+.projects{
+    height:auto;
+    border-radius: 2px;
+    width: 180px;
+    position: relative;
+right: 45px;
+margin:3px 10px;
+padding: 4%;
+}
+#clientemail{
+    width: 40vw;
+    border-radius: 8px;
+}
+#enquiry{
+    width: 40vw;
+    border-radius: 8px;
+}
+#clientphone{
+    width: 40vw;
+    border-radius: 8px;
+    
+}
+#name{
+    width: 40vw;
+    border-radius: 8px;
+    margin: 0 0 30px 0;
+}
+.contact-form{
+    padding: 100px 20px;
+    width: 150px;
+}

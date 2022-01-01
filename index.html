@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad khatri - developer</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+    <div class="sidebar sidebarGo" >
+         
+        <nav class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="intro.html">My Intro</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li><a href="blogs.html">Blogs</a></li>
+        </nav>
+    </div>
+
+    <div class="main">
+        <div class="hamburger">
+            <img class="ham" src="ham.png" alt="" width="40px">
+            <img class="cross" src="cross.png" alt="" width="23px">
+        </div>
+     <div class="infoContainer">
+         <div class="devInfo">
+             <div class="name"><h2 class="heading">Hi I am <span class="dev-name">Asad Khatri</span></h2></div>
+                <h4 class="head2">Developer, Freelancer, Enterprnuer, Work Enthusiast</h4>
+                <h5 class='head3'>I Am A FullStack Developer Who Would Love To Help You Have An Online Web Presence.</h6>
+                <div class="buttons">
+                <button class="btn">Explore </button> 
+                <button class="btn">Blogs</button>
+                </div>
+
+         </div>
+         <div class="devimg">
+             <img src="ma.jpg" alt="">
+         </div>
+     </div>
+    </div>
+    </div>
+    <script>
+        console.log('hello')
+        document.querySelector('.hamburger').addEventListener('click' , ()=>{
+            document.querySelector('.sidebar').classList.toggle('sidebarGo');
+        })
+        if( document.querySelector('.sidebar').classList.contains('sidebarGo')){
+            document.querySelector('.ham').style.display='inline'
+            document.querySelector('.cross').style.display='none'
+        }
+        else{
+            document.querySelector('.ham').style.display='none'
+            document.querySelector('.cross').style.display='inline'
+        }
+    </script>
+</body>
+</html>

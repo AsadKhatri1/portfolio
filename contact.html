@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asad khatri - developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+
+            <nav class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="intro.html">My Intro</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+            </nav>
+        </div>
+        <div class="main">
+          <div class="hamburger">
+            <img class="ham" src="ham.png" alt="" width="40px">
+            <!-- <img class="cross" src="cross.png" alt="" width="23px"> -->
+        </div>
+            <div class="contact-form">
+              <h2>CONTACT ME FOR PROJECT/GENERAL INQUIRIES-- </h2>
+                <form>
+                    <div class="mb-3">
+                      <label for="name" class="form-label">name</label>
+                      <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3 phonecl">
+                      <label for="clientphone" class="form-label">Phone no.</label>
+                      <input type="number" class="form-control" id="clientphone">
+                    </div>
+
+                
+
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient">
+                      <label class="form-check-label" for="isclient">Are You Ready To Work With Me</label>
+                    </div>
+                    <button type="submit" class="btn-sm btn-primary">Submit</button>
+                  </form>
+
+            </div>
+        </div>
+    </div>
+    <script>
+      console.log('hello')
+      document.querySelector('.hamburger').addEventListener('click' , ()=>{
+          document.querySelector('.sidebar').classList.toggle('sidebarGo');
+      })
+      // if( document.querySelector('.sidebar').classList.contains('sidebarGo')){
+      //     document.querySelector('.ham').style.display='inline'
+      //     document.querySelector('.cross').style.display='none'
+      // }
+      // else{
+      //     document.querySelector('.ham').style.display='none'
+      //     document.querySelector('.cross').style.display='inline'
+      // }
+  </script>
+</body>
+
+</html>
